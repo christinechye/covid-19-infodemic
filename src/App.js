@@ -5,6 +5,7 @@
 // $ npm run deploy
 // wait until "published" displays
 // https://christinechye.github.io/covid-19-infodemic/
+
 import React from 'react';
 import NavigationBar from './client/components/NavigationBar';
 import Home from './client/pages/Home';

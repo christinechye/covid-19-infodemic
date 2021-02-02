@@ -17,9 +17,9 @@ const Home = () => {
         </Jumbotron>
         <Container fluid>
             <Row>
-                <Col >Info about COVID-19</Col>
-                <Col >Links to helpful resources</Col>
-                <Col >References</Col>
+                <Col>Info about COVID-19</Col>
+                <Col>Links to helpful resources</Col>
+                <Col>References</Col>
             </Row>
         </Container>
     </React.Fragment>
