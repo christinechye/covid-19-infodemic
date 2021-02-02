@@ -12,20 +12,20 @@ import Home from './client/pages/Home';
 import FindState from './client/pages/FindState'; 
 import AboutUs from './client/pages/AboutUs';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
     <React.Fragment>
-      <Router basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <NavigationBar />
         <Switch>
-          <Route exact path="/" component={Home} basename={process.env.PUBLIC_URL}/>
-          <Route path="/findstate" component={FindState} basename={process.env.PUBLIC_URL}/>
-          <Route path="/aboutus" component={AboutUs} basename={process.env.PUBLIC_URL}/>
+          <Route exact path="/" component={Home} />
+          <Route path="/findstate" component={FindState} />
+          <Route path="/aboutus" component={AboutUs} />
         </Switch>
-      </Router>
+      </HashRouter>
     </React.Fragment>
   );
 }
