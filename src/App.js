@@ -2,7 +2,7 @@
 // $ git add .
 // $ git commit -m "update"
 // $ git push 
-// $ npm run deployed 
+// $ npm run deploy
 // wait until "published" displays
 // https://christinechye.github.io/covid-19-infodemic/
 import React from 'react';
