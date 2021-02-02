@@ -12,13 +12,13 @@ import Home from './client/pages/Home';
 import FindState from './client/pages/FindState'; 
 import AboutUs from './client/pages/AboutUs';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
     <React.Fragment>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavigationBar />
         <Switch>
           <Route exact path="/" component={Home} />
