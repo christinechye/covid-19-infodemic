@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import './../styles.css';
 
 const NavigationBar = () => {
   return (
     <Navbar variant="dark" style={{backgroundColor: '#97294E'}}>
-        <Navbar.Brand href="/">COVID-19 Infodemic</Navbar.Brand>
+        <Navbar.Brand href="/covid-19-infodemic">COVID-19 Infodemic</Navbar.Brand>
         <Nav className="mr-auto">
             <Nav.Item><Nav.Link><Link style={{color: '#FFF'}} to='/'>Home</Link></Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link><Link style={{color: '#FFF'}} to='/findstate'>Find State</Link></Nav.Link></Nav.Item>

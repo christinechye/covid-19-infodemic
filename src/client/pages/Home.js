@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -12,7 +13,10 @@ const Home = () => {
             <center>
                 <h1><b>Infodemic: Understanding COVID-19 <br></br>Public Sentiment Using <br></br>Social Media Data</b></h1>
                 <p>This is a dashboard for users to interact with our data visualizations regarding COVID-19 cases in U.S states.</p>
-                <Button variant="primary" href="/findstate">Learn more</Button>
+                <Button variant="primary"><Link style={{color: '#FFF'}} to='/findstate'></Link>Learn more</Button>
+
+                {/* <Button variant="primary" href="/findstate">Learn more</Button>
+                <Link style={{color: '#FFF'}} to='/findstate'>Find State</Link> */}
             </center>
         </Jumbotron>
         <Container fluid>
