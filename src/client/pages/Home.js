@@ -13,10 +13,7 @@ const Home = () => {
             <center>
                 <h1><b>Infodemic: Understanding COVID-19 <br></br>Public Sentiment Using <br></br>Social Media Data</b></h1>
                 <p>This is a dashboard for users to interact with our data visualizations regarding COVID-19 cases in U.S states.</p>
-                <Button variant="primary"><Link style={{color: '#FFF'}} to='/findstate'></Link>Learn more</Button>
-
-                {/* <Button variant="primary" href="/findstate">Learn more</Button>
-                <Link style={{color: '#FFF'}} to='/findstate'>Find State</Link> */}
+                <Button variant="primary"><Link style={{color: '#FFF'}} to='/findstate'>Learn More</Link></Button>
             </center>
         </Jumbotron>
         <Container fluid>
