@@ -1,13 +1,19 @@
 import React from 'react';
-import Search from '../components/Search';
+import Container from 'react-bootstrap/Container';
+// import Search from '../components/Search';
+import GraphView from '../components/GraphView';
+
+const styles = { 
+  marginTop: "30px",
+  alignItems: 'flex-end'
+}
 
 const FindState = () => {
   return (
-    <div >
-        <p>This is find state!</p>
-      <Search />
-    </div>
-    
+    <Container style={styles}>
+      {/* <Search /> */}
+      <GraphView/>
+    </Container>
   );
 }
 
