@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 // import Image from 'react-bootstrap/Image';
@@ -13,6 +13,11 @@ const GraphTabs = (props) => {
     const Arizona = [ require('../../images/AZ/AZ_cov_news1.png'), 
     require('../../images/AZ/AZ_cov_news2.png'), require('../../images/AZ/AZ_cov_stop_4.png'), 
     require('../../images/AZ/AZ_inst_trust1_2.png'), require('../../images/AZ/AZ_inst_trust1_5.png')];
+  
+    // let languages = {
+    //     news1:  require('../../images/AZ/AZ_cov_news1.png'),
+    //     news2: require('../../images/AZ/AZ_cov_news2.png'),
+    // }
 
     // const  imageMap= { Arizona: [require('../../images/AZ/AZ_cov_news1.png'), require('../../images/AZ/AZ_cov_news2.png'), require('../../images/AZ/AZ_cov_stop_4.png'), require('../../images/AZ/AZ_inst_trust1_2.png'), require('../../images/AZ/AZ_inst_trust1_5.png')]};
     const stateName = state.name; 
@@ -25,6 +30,7 @@ const GraphTabs = (props) => {
                   <center><h4>In the last 24 hours, did you get any news or information related to the 
                       current coronavirus (COVID-19) outbreak from the following sources?</h4>
                       <img style={graphStyle} src={logo}/></center>
+                      
               </Tab>
               <Tab eventKey="timeline" title="COVID-19 Timeline"><p>hello</p></Tab>
             </Tabs>
