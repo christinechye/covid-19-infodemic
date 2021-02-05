@@ -17,10 +17,10 @@ const Home = () => {
             </center>
         </Jumbotron>
         <Container fluid>
-            <Row>
-                <Col>Info about COVID-19</Col>
-                <Col>Links to helpful resources</Col>
-                <Col>References</Col>
+            <Row className="justify-content-md-center">
+                <Col md="auto">Info about COVID-19</Col>
+                <Col md="auto">Links to helpful resources</Col>
+                <Col md="auto">References</Col>
             </Row>
         </Container>
     </React.Fragment>
