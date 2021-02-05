@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/covid-19-infodemic/static/css/main.4fed8e43.chunk.css",
-    "main.js": "/covid-19-infodemic/static/js/main.de413b3b.chunk.js",
-    "main.js.map": "/covid-19-infodemic/static/js/main.de413b3b.chunk.js.map",
-    "runtime-main.js": "/covid-19-infodemic/static/js/runtime-main.1a892015.js",
-    "runtime-main.js.map": "/covid-19-infodemic/static/js/runtime-main.1a892015.js.map",
+    "main.css": "/covid-19-infodemic/static/css/main.f6b8ab0d.chunk.css",
+    "main.js": "/covid-19-infodemic/static/js/main.0324e231.chunk.js",
+    "main.js.map": "/covid-19-infodemic/static/js/main.0324e231.chunk.js.map",
+    "runtime-main.js": "/covid-19-infodemic/static/js/runtime-main.c8a4a2ff.js",
+    "runtime-main.js.map": "/covid-19-infodemic/static/js/runtime-main.c8a4a2ff.js.map",
     "static/css/2.150d169a.chunk.css": "/covid-19-infodemic/static/css/2.150d169a.chunk.css",
-    "static/js/2.cabe2343.chunk.js": "/covid-19-infodemic/static/js/2.cabe2343.chunk.js",
-    "static/js/2.cabe2343.chunk.js.map": "/covid-19-infodemic/static/js/2.cabe2343.chunk.js.map",
-    "static/js/3.68174053.chunk.js": "/covid-19-infodemic/static/js/3.68174053.chunk.js",
-    "static/js/3.68174053.chunk.js.map": "/covid-19-infodemic/static/js/3.68174053.chunk.js.map",
+    "static/js/2.939f3ccd.chunk.js": "/covid-19-infodemic/static/js/2.939f3ccd.chunk.js",
+    "static/js/2.939f3ccd.chunk.js.map": "/covid-19-infodemic/static/js/2.939f3ccd.chunk.js.map",
+    "static/js/3.5b5e03d3.chunk.js": "/covid-19-infodemic/static/js/3.5b5e03d3.chunk.js",
+    "static/js/3.5b5e03d3.chunk.js.map": "/covid-19-infodemic/static/js/3.5b5e03d3.chunk.js.map",
     "index.html": "/covid-19-infodemic/index.html",
     "static/css/2.150d169a.chunk.css.map": "/covid-19-infodemic/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.4fed8e43.chunk.css.map": "/covid-19-infodemic/static/css/main.4fed8e43.chunk.css.map",
-    "static/js/2.cabe2343.chunk.js.LICENSE.txt": "/covid-19-infodemic/static/js/2.cabe2343.chunk.js.LICENSE.txt",
-    "static/media/AZ_cov_news1.png": "/covid-19-infodemic/static/media/AZ_cov_news1.1b4976fc.png",
-    "static/media/AZ_cov_news2.png": "/covid-19-infodemic/static/media/AZ_cov_news2.cc3407cd.png",
-    "static/media/AZ_cov_stop_4.png": "/covid-19-infodemic/static/media/AZ_cov_stop_4.17b6eb24.png",
-    "static/media/AZ_inst_trust1_2.png": "/covid-19-infodemic/static/media/AZ_inst_trust1_2.b0039a3b.png",
-    "static/media/AZ_inst_trust1_5.png": "/covid-19-infodemic/static/media/AZ_inst_trust1_5.28ec43b3.png"
+    "static/css/main.f6b8ab0d.chunk.css.map": "/covid-19-infodemic/static/css/main.f6b8ab0d.chunk.css.map",
+    "static/js/2.939f3ccd.chunk.js.LICENSE.txt": "/covid-19-infodemic/static/js/2.939f3ccd.chunk.js.LICENSE.txt",
+    "static/media/cov_news1.png": "/covid-19-infodemic/static/media/cov_news1.fdd9961d.png",
+    "static/media/cov_stop_4.png": "/covid-19-infodemic/static/media/cov_stop_4.fa354bc4.png",
+    "static/media/inst_trust1_2.png": "/covid-19-infodemic/static/media/inst_trust1_2.f444b535.png",
+    "static/media/inst_trust1_5.png": "/covid-19-infodemic/static/media/inst_trust1_5.f44f27ff.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1a892015.js",
+    "static/js/runtime-main.c8a4a2ff.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.cabe2343.chunk.js",
-    "static/css/main.4fed8e43.chunk.css",
-    "static/js/main.de413b3b.chunk.js"
+    "static/js/2.939f3ccd.chunk.js",
+    "static/css/main.f6b8ab0d.chunk.css",
+    "static/js/main.0324e231.chunk.js"
   ]
 }
