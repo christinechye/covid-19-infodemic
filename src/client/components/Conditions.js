@@ -91,7 +91,7 @@ class Conditions extends React.Component {
                             </Col>
                             </Form.Group>
                         </fieldset>
-                        <Button type="submit" style={{float:'right', margin: '10px'}} onClick={this.submit()}>
+                        <Button type="submit" style={{float:'right', margin: '10px'}} onClick={this.submit}>
                             Apply Changes
                         </Button>
                     </Form>
